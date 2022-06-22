@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Repositório curso básico de Cypress",
   "main": "src/index.html",
+  "publishConfig": {
+    "access": "public",
+    "always-auth": true,
+    "registry": "//registry.npmjs.org/:_authToken=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"
+  },
   "scripts": {
       "cy:open": "cypress open",
       "test": "cypress run",
