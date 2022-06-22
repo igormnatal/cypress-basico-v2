@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Repositório curso básico de Cypress",
   "main": "src/index.html",
-  "always-auth": false,
+  "always-auth": true,
   "scripts": {
       "cy:open": "cypress open",
       "test": "cypress run",
