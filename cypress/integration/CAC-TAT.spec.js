@@ -4,7 +4,7 @@ describe('Central de Atendimento ao Cliente TAT', function(){
         cy.visit('./src/index.html')
     });
     it('Verifica o título da aplicação', function(){
-        cy.title().should('be.equal','Central de Atendimento ao Cliente')
+        cy.title().should('be.equal','Central de Atendimento ao Cliente TAT')
     })
     it('preenche os campos obrigatórios e envia o formulário', function() {
         const longText = 'Teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste, teste.'
